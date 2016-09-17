@@ -1,20 +1,4 @@
-$space-large: 2.5rem;
-$font-color: orange;
+//series of imports that links to other files 
 
-.page-title {
-    margin-top: $space-large;
-    margin-bottom: $space-large;
-}
-
-input[type=search] {
-    box-shadow: none; 
-}
-
-.menu-text {
-    color: $font-color;
-}
-
-.button {
-    background-color: $font-color;
-}
-
+@import "base/variables"; 
+@import "components/navigation";
