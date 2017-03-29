@@ -24,10 +24,17 @@ module.exports = {
 		alias: {
 			Main: 'app/components/Main.jsx',
 			Home: 'app/components/Home.jsx',
-			Countdown: 'app/components/Countdown.jsx',
-			Nav: 'app/components/Nav.jsx',
-			Clock: 'app/components/Clock.jsx',
-			CountdownForm: 'app/components/CountdownForm.jsx',
+			Henna1: 'app/components/Pages/Henna1.jsx',
+			Mabrook23: 'app/components/Pages/Mabrook23.jsx',
+			Mubarak12: 'app/components/Pages/Mubarak12.jsx',
+			Nooresul2: 'app/components/Pages/Nooresul2.jsx',
+			Sajna123: 'app/components/Pages/Sajna123.jsx',
+			Sulenoor3: 'app/components/Pages/Sulenoor3.jsx',
+			Tchowdhry13: 'app/components/Pages/Tchowdhry13.jsx',
+			MendhiDetails: 'app/components/EventDetails/MendhiDetails.jsx',
+			ShaadiDetails: 'app/components/EventDetails/ShaadiDetails.jsx',
+			ValimaDetails: 'app/components/EventDetails/ValimaDetails.jsx',
+			Footer: 'app/components/Footer.jsx',
 	    applicationStyles: 'app/styles/app.scss'
 	},
 		extensions: ['', '.js', '.jsx']
