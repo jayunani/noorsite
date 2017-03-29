@@ -9,7 +9,7 @@ class Tchowdhry13 extends React.Component {
     return (
       <div className='page'>
         <div className='title'>
-          <img src='/img/bismillah8.png' className='bismallah'/>
+          <img src='/bismillah8.png' className='bismallah'/>
           <div className='event-details'> Event Details </div>
         </div>
         <div className='event-content'>

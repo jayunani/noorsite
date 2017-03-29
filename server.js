@@ -11,10 +11,10 @@ app.use(function(req, res, next) {
     }
 });
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
 
 app.get('*', function (request, response) {
-    response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+    response.sendFile(path.resolve('public', 'index.html'))
 })
 
 app.listen(PORT, function() {

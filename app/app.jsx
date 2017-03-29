@@ -1,6 +1,10 @@
 var React = require('react'); 
 var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, browserHistory} = require('react-router');
+var reactRouter = require('react-router');
+var Router = reactRouter.Router;
+var Route = reactRouter.Route;
+var IndexRoute = reactRouter.IndexRoute;
+var browserHistory = reactRouter.browserHistory;
 var Main = require('Main');
 var Home = require('Home');
 var Henna1 = require('Henna1');
@@ -19,17 +23,15 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-	<Router history={browserHistory}>
-		<Route path="/" component={Main}>
-			<Route path="/hottamales" component={Henna1}/>
-			<Route path='/kashmirichai' component={Mubarak12} />
-			<Route path='/sajna' component={Sajna123} />
-			<Route path='/ucsd' component={Mabrook23} />
-			<Route path='/noorethaoos' component={Sulenoor3} />
-			<Route path='/562925' component={Nooresul2} />
-			<Route path='/villagepizza' component={Tchowdhry13} />
-			<IndexRoute component={Home}/>
-		</Route>
+	<Router component={Main} history={browserHistory}>
+		<Route path="/" component={Home} />
+		<Route path="hottamales" component={Henna1}/>
+		<Route path="kashmirichai" component={Mubarak12}/>
+		<Route path="sajna" component={Sajna123} />
+		<Route path='ucsd' component={Mabrook23} />
+		<Route path='noorethaoos' component={Sulenoor3} />
+		<Route path='562925' component={Nooresul2} />
+		<Route path='villagepizza' component={Tchowdhry13} />
 	</Router>,
 	document.getElementById('app')
 );
