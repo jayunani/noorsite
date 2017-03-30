@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+// font-family: 'Neuton', serif;
+// font-family: 'Great Vibes', cursive;
+
 .page {
   text-align: center;
-  font-family: 'Amatic SC', cursive;
   .title {
+    font-family: 'Great Vibes', cursive;
     font-size: 56px;
-    color: black;
-    background-color: $light-coral;
+    background-color: $dark-rose;
+    color: $cream;
     padding-top: 2%;
     height: 150px;
     font-weight: bold;
+    .event {
+      margin-top: -1%;
+    }
     .bismallah {
       width: 25%;
     }
@@ -17,40 +25,41 @@
     .mendhi-details{
       width: 100%;
       .event-details-title {
+        font-family: 'Great Vibes', cursive;
         font-size: 48px;
-        background-color: $light-lime;
-        color: black;
-        width: 75%;
-        margin-left: auto;
-        margin-right: auto;
+        background-color:$light-rose;
+        margin: 2% auto 2% auto;
         border-radius: 5px;
+        width: 80%;
+        color: $cream;
       }
       .mendhi-content {
         .event-details {
-          font-size: 40px;
+          font-family: 'Pavanam', sans-serif;
+          font-size: 28px;
           display: flex;
-          .event-address{
+          .event-address {
             width: 50%;
             .address-title {
-              color:  $dark-coral;
+              font-family: 'Pavanam', sans-serif;
+              color: $dark-rose;
               font-weight: bold;
             }
           }
           .event-schedule {
             width: 50%;
             .schedule-title {
-              color: $dark-coral;
+              font-family: 'Pavanam', sans-serif;
+              color: $dark-rose;
               font-weight: bold;
             }
-          }
-        }
-        .mendhi-map {
-          a {
-            font-size: 40px;
-            text-decoration: none;
-            color: $lime-green;
-            &:hover {
-              color: $dark-coral;
+            a {
+              font-size: 32px;
+              text-decoration: none;
+              color: $dark-rose;
+              &:hover {
+                color: $light-rose;
+              }
             }
           }
         }
@@ -59,22 +68,21 @@
     .rsvp-form {
       margin: auto;
       .event-form {
-        .form-title {
-          font-size: 32px;
-          background-color: $light-lime;
-          color: black;
+        margin: 5%;
+        .rsvp {
+          font-family: 'Great Vibes', cursive;
+          font-size: 48px;
           width: 40%;
           margin-left: auto;
           margin-right: auto;
-          border-radius: 5px;
-          border: none;
           margin-bottom: 2%;
+          color: $dark-rose;
         }
         button:focus {outline:0;}
         iframe {
           margin: auto;
           width: 70%;
-          border: 3px solid $light-lime;
+          border: 3px solid $light-rose;
         }
       }
     }
@@ -82,15 +90,10 @@
 }
 .footer {
   font-family: arial;
-  .footer-message {
-    color: #FF8E68;
-    width: 90%;
-    margin: auto auto 2% auto;
-  }
   .footer-section {
     padding: 2%;
     color: white;
-    background-color: $light-coral;
+    background-color: $dark-rose;
     img {
       width: 60%
     }

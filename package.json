@@ -19,9 +19,11 @@
   },
   "dependencies": {
     "axios": "^0.13.1",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "nodemon": "^1.10.2",
     "react": "^15.3.0",
+    "react-bootstrap": "^0.30.8",
     "react-dom": "^15.3.0",
     "react-router": "^2.7.0"
   },

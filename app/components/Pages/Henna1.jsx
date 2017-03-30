@@ -14,10 +14,8 @@ class Henna1 extends React.Component {
           <MendhiDetails />
           <div className='rsvp-form'>
             <div className='event-form'>
-              <button className='form-title' data-toggle='collapse' data-target='.collapsed-form-mendhi'> 
-                *click* to RSVP
-              </button>
-              <iframe className='collapsed-form-mendhi collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLScoyFfb0vDvUhYeoXq2rWsIuw-6i_fdM_mrjaa3mY7jHkrEQw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <div className='rsvp'> RSVP </div>
+              <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLScjffUYeNEWlK9JijhzoS7i3orOCBf7P3cQgcgAukZoQlgSZg/viewform?embedded=true" width="380" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
           </div>
         </div>
@@ -26,5 +24,7 @@ class Henna1 extends React.Component {
     );
   }
 }
+
+
 
 module.exports = Henna1;

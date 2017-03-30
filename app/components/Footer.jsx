@@ -4,9 +4,6 @@ class Footer extends React.Component {
   render() {
     return (
       <div className='footer'>
-        <div className='footer-message'> 
-          We, Sulayman and Noor, are extremely blessed to have the love and care of all our family and friends. We so dearly appreciate all that you do and how you have affected our lives. May Allah continue to shower all of us with His Love and Blessings and always keep good people in our lives. Ameen. We'd like to also especially appreciate our immensely loving parents who will never stop helping, caring, and protecting us and whom we could never repay. We love you, Mama, Baba, Ammi, Abbz.
-        </div>
         <div className='footer-section'>
           <img src='/SurahRum30-21.png' />
           <div className='footer-quote'> 

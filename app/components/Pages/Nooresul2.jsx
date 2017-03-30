@@ -14,11 +14,8 @@ class Nooresul2 extends React.Component {
           <ShaadiDetails />
           <div className='rsvp-form'>
             <div className='event-form'>
-              <button className='form-title' data-toggle='collapse' data-target='.collapsed-form-mendhi'> 
-                *click* to RSVP
-              </button>
-              <iframe
-              className='collapsed-form-mendhi collapse collapsed-div' src="https://docs.google.com/forms/d/e/1FAIpQLSf7p5d9jPdeMkCFYS-oPUKVo1mS1QX17Cxt7SGoLf8jqoqqhQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <div className='rsvp'> RSVP </div>
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdkJilckA5Ldg9jzMLWwntquGT17lR9KnnLglCkKO6IEC2aBA/viewform?embedded=true" width="380" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
           </div> 
         </div>

@@ -24,11 +24,8 @@ class ShaadiDetails extends React.Component {
             <div className='event-schedule'>
               <div className='schedule-title'> Schedule </div>
               <div> 6 PM: All guests</div>
+              <a href='https://www.google.com/maps/place/Hotel+Irvine/@33.6779948,-117.842502,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde85dee606c7:0x84a9c455ba214a57!8m2!3d33.6779948!4d-117.8403133' target="_blank" className='mendhi-map'> Map it for me! </a>
             </div>
-
-          </div>
-          <div className='mendhi-map' id='map'>
-            <a href='https://www.google.com/maps/place/Hotel+Irvine/@33.6779948,-117.842502,17z/data=!3m1!4b1!4m5!3m4!1s0x80dcde85dee606c7:0x84a9c455ba214a57!8m2!3d33.6779948!4d-117.8403133' target="_blank"> Map it for me! </a>
           </div>
         </div>
       </div>

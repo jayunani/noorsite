@@ -20,13 +20,14 @@ class MendhiDetails extends React.Component {
               <div className='schedule-title'> Schedule </div>
               <div> 5 PM: Ladies Only </div>
               <div> 6:30 PM: All guests </div>
+              <a href='https://www.google.com/maps/place/Diamond+Bar+Center/@33.9986695,-117.7999005,17z/data=!3m1!4b1!4m5!3m4!1s0x80c32ce8e2ae8d11:0xdce3ea98d1d8016b!8m2!3d33.9986695!4d-117.7977118' target="_blank" className='mendhi-map'> Map it for me! </a>
             </div>
 
           </div>
 
-          <div className='mendhi-map' id='map'>
-            <a href='https://www.google.com/maps/place/Diamond+Bar+Center/@33.9986695,-117.7999005,17z/data=!3m1!4b1!4m5!3m4!1s0x80c32ce8e2ae8d11:0xdce3ea98d1d8016b!8m2!3d33.9986695!4d-117.7977118' target="_blank"> Map it for me! </a>
-          </div>
+          {/*<div className='mendhi-map' id='map'>
+     
+          </div>*/}
         </div>
       </div>
     );
