@@ -11,7 +11,7 @@
     background-color: $dark-rose;
     color: $cream;
     padding-top: 2%;
-    height: 150px;
+    height: 170px;
     font-weight: bold;
     .event {
       margin-top: -1%;
@@ -26,7 +26,7 @@
       width: 100%;
       .event-details-title {
         font-family: 'Great Vibes', cursive;
-        font-size: 48px;
+        font-size: 40px;
         background-color:$light-rose;
         margin: 2% auto 2% auto;
         border-radius: 5px;
@@ -94,12 +94,20 @@
     padding: 2%;
     color: white;
     background-color: $dark-rose;
-    img {
-      width: 60%
+    display:flex;
+    .noor-sul {
+      width: 20%;
+      height: 10%;
+      margin-left: 10%;
+      border-radius: 50%;
+    }
+    .surah {
+      width: 75%
     }
     div {
       width: 75%;
       margin: auto;
+      font-size: 14px;
     }
   }
 }

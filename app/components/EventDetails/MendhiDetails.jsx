@@ -4,7 +4,6 @@ class MendhiDetails extends React.Component {
   render() {
     return (
       <div className='mendhi-details'>
-        {/*<div className='mendhi-header'> Join Ibrahim, Shoaib, and Zaynab for the Mendhi ceremony! </div>*/}
         <div className='event-details-title'> Mendhi </div>
         <div className='mendhi-content'>
           <div className='event-details'>
