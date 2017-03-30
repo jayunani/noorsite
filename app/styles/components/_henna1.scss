@@ -20,69 +20,85 @@
       width: 25%;
     }
   }
+  
   .event-content {
-    margin: 5%;
-    .mendhi-details{
-      width: 100%;
-      .event-details-title {
-        font-family: 'Great Vibes', cursive;
-        font-size: 40px;
-        background-color:$light-rose;
-        margin: 2% auto 2% auto;
-        border-radius: 5px;
-        width: 80%;
-        color: $cream;
-      }
-      .mendhi-content {
-        .event-details {
-          font-family: 'Pavanam', sans-serif;
-          font-size: 28px;
-          display: flex;
-          .event-address {
-            width: 50%;
-            .address-title {
-              font-family: 'Pavanam', sans-serif;
-              color: $dark-rose;
-              font-weight: bold;
-            }
-          }
-          .event-schedule {
-            width: 50%;
-            .schedule-title {
-              font-family: 'Pavanam', sans-serif;
-              color: $dark-rose;
-              font-weight: bold;
-            }
-            a {
-              font-size: 32px;
-              text-decoration: none;
-              color: $dark-rose;
-              &:hover {
-                color: $light-rose;
-              }
-            }
-          }
-        }
-      }
+    margin-bottom: 5%;
+    .event-details-text {
+      font-family: 'Great Vibes', cursive;
+      font-size: 40px;
+      color:$dark-rose; 
     }
-    .rsvp-form {
+    .event-details-title {
+      font-family: 'Great Vibes', cursive;
+      font-size: 40px;
+      background-color:$light-rose;
+      margin: 2% auto 2% auto;
+      border-radius: 5px;
+      width: 80%;
+      color: $cream;
+    }
+    .mendhi-content {
+      display: flex;
+      width: 80%;
       margin: auto;
-      .event-form {
-        margin: 5%;
-        .rsvp {
-          font-family: 'Great Vibes', cursive;
-          font-size: 48px;
-          width: 40%;
-          margin-left: auto;
-          margin-right: auto;
-          margin-bottom: 2%;
-          color: $dark-rose;
+      .event-details {
+        width: 50%;
+        font-family: 'Pavanam', sans-serif;
+        font-size: 32px;
+        .event-address {
+          margin-bottom: 10%;
+          img {
+            width: 20%;
+          }
+          .address-title {
+            font-family: 'Pavanam', sans-serif;
+            color: $dark-rose;
+            font-weight: bold;
+          }
         }
-        button:focus {outline:0;}
-        iframe {
-          margin: auto;
-          width: 70%;
-          border: 3px solid $light-rose;
+        .event-schedule {
+          margin-bottom: 10%;
+          .schedule-title {
+            font-family: 'Pavanam', sans-serif;
+            color: $dark-rose;
+            font-weight: bold;
+          }
+        }
+        a {
+          text-decoration: underline;
+          font-size: 32px;
+          color: $dark-rose;
+          &:hover {
+            color: $light-rose;
+          }
+        }
+      }
+      .rsvp-form {
+        width: 70%;
+        img {
+          width: 11%;
+        }
+        .collapsed-div {
+          width: 100%;
+        }
+        .event-form {
+          margin: 0px;
+
+          .rsvp {
+            font-family: 'Great Vibes', cursive;
+            font-size: 48px;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2%;
+            color: $dark-rose;
+          }
+          button:focus {outline:0;}
+          iframe {
+            margin: auto;
+            width: 70%;
+            border: 3px solid $light-rose;
+          }
         }
       }
     }
