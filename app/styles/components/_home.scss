@@ -6,7 +6,7 @@
   .home-body {
     .noor-sulayman {
       color: white;
-      font-size: 100px;
+      font-size: 80px;
       padding-top: 10%;
     }
     background: url("/home_fireworks.jpg");
@@ -33,7 +33,7 @@
         font-family: 'Open Sans Condensed', sans-serif;
       }
       .submit-btn {
-        font-size: 36px;
+        font-size: 32px;
         border: 1px solid lightcoral;
         background: lightcoral;
         color: white;
@@ -45,5 +45,10 @@
 }
 
 @media screen and (max-width: 480px) {
-
+  .noor-sulayman {
+    font-size: 80px;
+  }
+  .submit-btn {
+    font-size: 24px;
+  }
 }

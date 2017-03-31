@@ -1,0 +1,17 @@
+.error1-page {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  color: mediumpurple;
+  font-size: 48px;
+  width: 80%;
+  margin: auto;
+  .error1-title {
+    margin-top: -80px;
+  }
+  button {
+    background-color: #FFA5B9;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+  }
+}

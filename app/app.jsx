@@ -14,6 +14,7 @@ var Mabrook23 = require('Mabrook23');
 var Sulenoor3 = require('Sulenoor3');
 var Nooresul2 = require('Nooresul2');
 var Tchowdhry13 = require('Tchowdhry13');
+var Error1 = require('Error1');
 
 // load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -32,6 +33,7 @@ ReactDOM.render(
 		<Route path='noorethaoos' component={Sulenoor3} />
 		<Route path='562925' component={Nooresul2} />
 		<Route path='villagepizza' component={Tchowdhry13} />
+		<Route path='error1' component={Error1} />
 	</Router>,
 	document.getElementById('app')
 );

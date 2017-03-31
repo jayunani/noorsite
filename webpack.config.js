@@ -36,6 +36,7 @@ module.exports = {
 			ValimaDetails: 'app/components/EventDetails/ValimaDetails.jsx',
 			Header: 'app/components/Header.jsx',
 			Footer: 'app/components/Footer.jsx',
+			Error1: 'app/components/Error1.jsx',
 	    applicationStyles: 'app/styles/app.scss'
 	},
 		extensions: ['', '.js', '.jsx']

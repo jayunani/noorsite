@@ -9,6 +9,8 @@ class Home extends React.Component {
       let codeValue = this.refs.codeInput.value;
         if(codes.includes(codeValue)) {
           browserHistory.push('/' + codeValue)
+        } else {
+          browserHistory.push('/error1')
         }
     })
     return (
@@ -18,7 +20,7 @@ class Home extends React.Component {
             Noor & Sulayman 
           </div>
           <form onSubmit={formSubmitHandler}> 
-            <input type='text' placeholder='ENTER CODE HERE' ref='codeInput' className='code-input'/>
+            <input type='text' placeholder='ENTER CODE ' ref='codeInput' className='code-input'/>
             <input type='submit' className='submit-btn' value='Go!'/>
           </form>
         </div>
