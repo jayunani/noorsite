@@ -1,15 +1,13 @@
 var React = require('react');
 var MendhiDetails = require('MendhiDetails');
+var Header = require('Header');
 var Footer = require('Footer');
 
 class Henna1 extends React.Component {
   render() {
     return (
       <div className='page'>
-        <div className='title'>
-          <img src='/bismillah8.png' className='bismallah'/>
-          <div className='event'> Noor & Sulayman </div>
-        </div>
+        <Header />
         <div className='event-content'>
           <MendhiDetails />
         </div>

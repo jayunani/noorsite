@@ -3,7 +3,7 @@ import { browserHistory } from 'react-router';
 
 class Home extends React.Component {
   render() {
-    let codes = ['hottamales', '562925', 'noorethaoos', 'kashmirichai', 'ucsd', 'villagepizza', 'sajna'];
+    let codes = ['hottamales', '562925', 'noorethaoos', 'kashmirichai', 'UCSD', 'villagepizza', 'sajna'];
     let formSubmitHandler = ((e) => 
     {
       e.preventDefault();

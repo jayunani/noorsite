@@ -4,16 +4,9 @@ class ShaadiDetails extends React.Component {
   render() {
     return (
       <div className='mendhi-details'>
-        {/*<div className='shaadi-header'> Join Ibrahim, Shoaib, and Zaynab for the shaadi ceremony! </div>*/}
         <div className='event-details-title'> Shaadi </div>
         <div className='mendhi-content'>
           <div className='event-details'>
-
-            {/*<div className='event-message'> 
-              The Abbas Family graciously thanks you for taking the time to RSVP. 
-              We would be honored to have you share this joyous occasion with us. May Allah
-              put Barakah in our time and families. Ameen!
-            </div>*/}
             <div className='event-address'> 
               <div className='address-title'> Address </div>
               <div className='address-name'> Hotel Irvine </div>
@@ -26,6 +19,7 @@ class ShaadiDetails extends React.Component {
               <div className='schedule-title'> Schedule </div>
               <div> 6 PM: All guests</div>
             </div>
+            
           </div>
         </div>
       </div>

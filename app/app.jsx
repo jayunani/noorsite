@@ -28,7 +28,7 @@ ReactDOM.render(
 		<Route path="hottamales" component={Henna1}/>
 		<Route path="kashmirichai" component={Mubarak12}/>
 		<Route path="sajna" component={Sajna123} />
-		<Route path='ucsd' component={Mabrook23} />
+		<Route path='UCSD' component={Mabrook23} />
 		<Route path='noorethaoos' component={Sulenoor3} />
 		<Route path='562925' component={Nooresul2} />
 		<Route path='villagepizza' component={Tchowdhry13} />

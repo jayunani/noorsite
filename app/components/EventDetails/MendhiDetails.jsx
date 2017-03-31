@@ -29,9 +29,6 @@ class MendhiDetails extends React.Component {
               <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLScjffUYeNEWlK9JijhzoS7i3orOCBf7P3cQgcgAukZoQlgSZg/viewform?embedded=true" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
           </div>
-          {/*<div className='mendhi-map' id='map'>
-     
-          </div>*/}
         </div>
       </div>
     );

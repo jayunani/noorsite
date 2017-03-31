@@ -34,6 +34,7 @@ module.exports = {
 			MendhiDetails: 'app/components/EventDetails/MendhiDetails.jsx',
 			ShaadiDetails: 'app/components/EventDetails/ShaadiDetails.jsx',
 			ValimaDetails: 'app/components/EventDetails/ValimaDetails.jsx',
+			Header: 'app/components/Header.jsx',
 			Footer: 'app/components/Footer.jsx',
 	    applicationStyles: 'app/styles/app.scss'
 	},
