@@ -10,7 +10,6 @@ class ValimaDetails extends React.Component {
 
             <div className='event-address'>
               <img src='./map-pin.png' /> 
-              <div className='address-title'> Address </div>
               <div className='address-name'> Crow Canyon Country Club </div>
               <div className='address-number'> 711 Silver Lake Dr </div>
               <div className='address-city'> Danville, CA </div>
@@ -19,7 +18,6 @@ class ValimaDetails extends React.Component {
 
             <div className='event-schedule'>
               <img src='./schedule.png' />
-              <div className='schedule-title'> Schedule </div>
               <div> 11 AM: All guests </div>
             </div>
 

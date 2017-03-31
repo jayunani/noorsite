@@ -10,7 +10,6 @@ class ShaadiDetails extends React.Component {
 
             <div className='event-address'> 
               <img src='./map-pin.png' />
-              <div className='address-title'> Address </div>
               <div className='address-name'> Hotel Irvine </div>
               <div className='address-number'> 17900 Jamboree Rd </div>
               <div className='address-city'> Irvine, CA </div>
@@ -19,7 +18,6 @@ class ShaadiDetails extends React.Component {
 
             <div className='event-schedule'>
               <img src='./schedule.png' />
-              <div className='schedule-title'> Schedule </div>
               <div> 6 PM: All guests</div>
             </div>
             
