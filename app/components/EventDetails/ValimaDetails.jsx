@@ -4,12 +4,12 @@ class ValimaDetails extends React.Component {
   render() {
     return (
       <div className='mendhi-details'>
-        {/*<div className='valima-header'> Join Ibrahim, Shoaib, and Zaynab for the valima ceremony! </div>*/}
         <div className='event-details-title'> Valima </div>
         <div className='mendhi-content'>
           <div className='event-details'>
 
-            <div className='event-address'> 
+            <div className='event-address'>
+              <img src='./map-pin.png' /> 
               <div className='address-title'> Address </div>
               <div className='address-name'> Crow Canyon Country Club </div>
               <div className='address-number'> 711 Silver Lake Dr </div>
@@ -18,10 +18,18 @@ class ValimaDetails extends React.Component {
             </div>
 
             <div className='event-schedule'>
+              <img src='./schedule.png' />
               <div className='schedule-title'> Schedule </div>
               <div> 11 AM: All guests </div>
             </div>
+
           </div>
+          <div className='rsvp-form'>
+            <img src='./rsvp.png' />
+            <div className='event-form'>
+              <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLSebmX7zdgl3Xoncz4iYtD3Bf2kbGzJUO_HDHcqxFhmzLEJlhg/viewform?embedded=true" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
+          </div>          
         </div>
       </div>
     );

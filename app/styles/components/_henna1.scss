@@ -14,8 +14,16 @@
     font-weight: bold;
     .title-content {
       display: flex;
-      img {
-        width: 14%;
+      .noor-pic {
+        width: 13%;
+        height: 11%;
+        border-radius: 50%;
+        margin: auto;
+        -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+        transform: rotate(40deg);
+      }
+      .sul-pic {
+        width: 13%;
         height: 11%;
         border-radius: 50%;
         margin: auto;
@@ -40,7 +48,7 @@
     margin-bottom: 5%;
     .event-details-text {
       font-family: 'Great Vibes', cursive;
-      font-size: 40px;
+      font-size: 50px;
       color:$dark-rose; 
     }
     .event-details-title {
@@ -143,6 +151,153 @@
       width: 75%;
       margin: auto;
       font-size: 14px;
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////
+
+@media screen and (max-width: 480px) {
+.page {
+  text-align: center;
+  .title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 56px;
+    background-color: $dark-rose;
+    color: $cream;
+    height: 250px;
+    font-weight: bold;
+    .title-content {
+      .noor-pic {
+        width: 20%;
+        height: 11%;
+        border-radius: 50%;
+        margin: auto;
+        -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+        transform: rotate(40deg);
+      }
+      .sul-pic {
+        width: 20%;
+        height: 11%;
+        border-radius: 50%;
+        margin: auto;
+      }
+      .header-graphic {
+        margin: auto 0px auto 0px;
+        width: 40%;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .event {
+      margin-top: -1%;
+    }
+    .bismallah {
+      width: 25%;
+    }
+  }
+  
+  .event-content {
+    .event-details-text {
+      font-family: 'Great Vibes', cursive;
+      font-size: 50px;
+      color:$dark-rose; 
+    }
+    .event-details-title {
+      font-weight: bold;
+      font-family: 'Great Vibes', cursive;
+      font-size: 40px;
+      background-color:$light-rose;
+      margin: 2% auto 2% auto;
+      border-radius: 5px;
+      color: $cream;
+    }
+    .mendhi-content {
+      display: inherit;
+      .event-details {
+        font-family: 'Pavanam', sans-serif;
+        font-size: 24px;
+        .event-address {
+          width: 200%;
+          margin-bottom: 10%;
+          img {
+            width: 20%;
+          }
+          .address-title {
+            font-family: 'Pavanam', sans-serif;
+            color: $dark-rose;
+            font-weight: bold;
+          }
+        }
+        .event-schedule {
+          width: 200%;
+          margin-bottom: 10%;
+          img {
+            width: 15%;
+          }
+          .schedule-title {
+            font-family: 'Pavanam', sans-serif;
+            color: $dark-rose;
+            font-weight: bold;
+          }
+        }
+        a {
+          text-decoration: underline;
+          font-size: 24px;
+          color: $dark-rose;
+          &:hover {
+            color: $light-rose;
+          }
+        }
+      }
+      .rsvp-form {
+        width: 100%;
+        img {
+          width: 20%;
+        }
+        .collapsed-div {
+          width: 100%;
+        }
+        .event-form {
+          margin: 0px;
+
+          .rsvp {
+            font-family: 'Great Vibes', cursive;
+            font-size: 48px;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2%;
+            color: $dark-rose;
+          }
+          button:focus {outline:0;}
+          iframe {
+            margin: auto;
+            width: 80%;
+            border: 3px solid $light-rose;
+          }
+        }
+      }
+    }
+  }
+}
+  .footer {
+    font-family: arial;
+    .footer-section {
+      display: inherit;
+      color: white;
+      background-color: $dark-rose;
+      margin-left: 0px;
+      margin-right: 0px;
+      .noor-sul {
+        width: 45%;
+        height: 10%;
+        border-radius: 50%;
+      }
+      div {
+        font-size: 14px;
+      }
     }
   }
 }
