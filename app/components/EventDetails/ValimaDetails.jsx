@@ -4,7 +4,10 @@ class ValimaDetails extends React.Component {
   render() {
     return (
       <div className='mendhi-details'>
-        <div className='event-details-title'> Valima </div>
+        <div className='event-details-title'> 
+          Valima 
+          <span className='mendhi-date'> - 7.8.17 </span>
+          </div>
         <div className='mendhi-content'>
           <div className='event-details'>
 

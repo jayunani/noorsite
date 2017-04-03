@@ -4,7 +4,10 @@ class ShaadiDetails extends React.Component {
   render() {
     return (
       <div className='mendhi-details'>
-        <div className='event-details-title'> Shaadi </div>
+        <div className='event-details-title'> 
+          Shaadi 
+          <span className='mendhi-date'> - 7.4.17 </span>
+          </div>
         <div className='mendhi-content'>
           <div className='event-details'>
 
