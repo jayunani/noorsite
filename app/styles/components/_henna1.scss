@@ -192,6 +192,13 @@
 }
 
 /////////////////////////// SMALL SCREENS //////////////////////////////////////
+@media screen and (max-width: 480px) {
+  .page {
+    .title {
+      font-size: 36px;
+    }
+  }
+}
 @media screen and (min-width: 481px) and (max-width: 909px) {
   .page {
     .title {
