@@ -5,7 +5,7 @@ class MendhiDetails extends React.Component {
 
   render() {
     let event = {
-      title: 'Mehndi- Noor & Sulayman',
+      title: 'Mehndi - Noor & Sulayman',
       description: 'Please arrive on time! Ladies only arrive earlier at 5pm.',
       location: 'Diamond Bar Center, 1600 Grand Ave, Diamond Bar, CA',
       startTime: '2017-07-03T18:30:00-07:00',
