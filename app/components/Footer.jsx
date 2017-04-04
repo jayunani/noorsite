@@ -5,7 +5,7 @@ class Footer extends React.Component {
     return (
       <div className='footer'>
         <div className='footer-section'>
-          <img src='/noor-sulayman.jpg' className='noor-sul'/>
+          <img src='/noor-sul-footer.jpeg' className='noor-sul'/>
           <div className='footer-quote'>
             <img src='/footer-img.png' className='surah'/>
             <div> 
@@ -13,7 +13,7 @@ class Footer extends React.Component {
             </div>
           </div>
         </div>
-        <div className='footer-email'> Questions? Contact us at <a className='footer-email' href="mailto:noorandsul@gmail.com?Subject=Hey" target="_top">noorandsul@gmail.com</a></div>
+        <div className='footer-email'> Questions? Contact us at noorandsul@gmail.com </div>
       </div>
     );
   }

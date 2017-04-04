@@ -61,7 +61,7 @@
       color:$dark-rose; 
     }
     .event-details-title {
-        font-family: 'Abril Fatface', cursive;
+      font-family: 'Abril Fatface', cursive;
       font-weight: bold;
       font-size: 40px;
       background-color:$light-rose;
@@ -177,6 +177,17 @@
   .page {
     .title {
       font-size: 40px;
+    }
+  }
+  .event-address {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1100px) {
+  .page {
+    .title {
+      font-size: 45px;
     }
   }
 }
@@ -326,8 +337,11 @@
         border-radius: 50%;
         position: initial;
       }
+      .surah {
+        width: 100%;
+      }
       div {
-        font-size: 16px;
+        font-size: 15px;
         width: 100%;
         margin-bottom: 5%;
       }
