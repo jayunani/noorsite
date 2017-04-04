@@ -12,7 +12,7 @@ class Header extends React.Component {
             <img src='/bismillah8.png' className='bismallah'/>
             <div className='event'> Noor & Sulayman </div>
           </div>
-          <img src='/sul-baby.jpeg' className='sul-cat-pic'/>
+          <img src='/sul-baby2.jpg' className='sul-cat-pic'/>
           <img src='/sul-cat.jpeg' className='sul-cat-pic' />
           <img src='/sulpic.jpeg' className='sul-pic'/>
         </div>
