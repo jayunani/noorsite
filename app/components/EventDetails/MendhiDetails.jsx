@@ -3,17 +3,14 @@ import AddToCalendar from 'react-add-to-calendar';
 
 class MendhiDetails extends React.Component {
 
-// getInitialState() {
-//   return {
-//     event: {
-//       title: 'Mehndi',
-//       location: 'Diamond Bar, CA',
-//       startTime: '2017-07-13T20:18:00-04:00'
-//     }
-//   }
-// }
-
   render() {
+    let event = {
+      title: 'Mehndi- Noor & Sulayman',
+      description: 'Please arrive on time! Ladies only arrive earlier at 5pm.',
+      location: 'Diamond Bar Center, 1600 Grand Ave, Diamond Bar, CA',
+      startTime: '2017-07-03T18:30:00-07:00',
+      endTime: '2017-07-03T23:00:00-07:00'
+    }
     return (
       <div className='mendhi-details'>
         <div className='event-details-title'> 
@@ -36,7 +33,7 @@ class MendhiDetails extends React.Component {
               <div> 5 PM: Ladies Only </div>
               <div> 6:30 PM: All guests </div>
             </div>
-          {/*<AddToCalendar event={this.state.event}/>*/}
+          <AddToCalendar event={event}/>
           </div>
           <div className='rsvp-form'>
             <img src='./rsvp.png' />

@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
-// font-family: 'Neuton', serif;
-// font-family: 'Great Vibes', cursive;
-
 .page {
   text-align: center;
   .title {
@@ -98,6 +95,28 @@
             font-family: 'Pavanam', sans-serif;
             color: $dark-rose;
             font-weight: bold;
+          }
+        }
+        .react-add-to-calendar {
+          .react-add-to-calendar__wrapper {
+            background-color: $dark-rose;
+            border-radius: 5px;
+            a {
+              color: white;
+              text-decoration: none;
+            }
+          }
+          .react-add-to-calendar__dropdown {
+            ul {
+              list-style-type: none;
+              li {
+                font-size: 16px;
+              }
+            }
+            a {
+              font-size: 22px;
+              text-decoration: none;
+            }
           }
         }
         a {
@@ -282,6 +301,16 @@
             color: $dark-rose;
             font-weight: bold;
           }
+        }
+        .react-add-to-calendar {
+          .react-add-to-calendar__wrapper {
+            position: relative;
+            left: 50%;
+          }
+            li {
+              position: relative;
+              left: 50%;
+            }
         }
         a {
           text-decoration: underline;

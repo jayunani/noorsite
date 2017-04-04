@@ -13,7 +13,7 @@ class Footer extends React.Component {
             </div>
           </div>
         </div>
-        <div className='footer-email'> Questions? Contact us at noorandsul@gmail.com </div>
+        <div className='footer-email'> Questions? Contact us at <a href="mailto:noorandsul@gmail.com">noorandsul@gmail.com </a></div>
       </div>
     );
   }

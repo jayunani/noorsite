@@ -1,7 +1,15 @@
 import React from 'react';
+import AddToCalendar from 'react-add-to-calendar';
 
 class ValimaDetails extends React.Component {
   render() {
+    let event = {
+      title: 'Valima- Noor & Sulayman',
+      description: 'Please arrive on time!',
+      location: 'Crow Canyon Country Club, 711 Silver Lake Dr, Danville, CA',
+      startTime: '2017-07-08T11:00:00-07:00',
+      endTime: '2017-07-08T13:30:00-07:00'
+    }
     return (
       <div className='mendhi-details'>
         <div className='event-details-title'> 
@@ -23,7 +31,7 @@ class ValimaDetails extends React.Component {
               <img src='./schedule.png' />
               <div> 11 AM: All guests </div>
             </div>
-
+            <AddToCalendar event={event}/>
           </div>
           <div className='rsvp-form'>
             <img src='./rsvp.png' />
