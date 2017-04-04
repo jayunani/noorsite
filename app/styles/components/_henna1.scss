@@ -207,6 +207,12 @@
         border-radius: 50%;
         margin: auto;
       }
+      .sul-cat-pic {
+        display: none;
+      }
+      .noor-cat-pic {
+        display: none;
+      }
       .header-graphic {
         margin: auto 0px auto 0px;
         width: 40%;
@@ -231,7 +237,6 @@
     }
     .event-details-title {
       font-weight: bold;
-      font-family: 'Great Vibes', cursive;
       font-size: 40px;
       background-color:$light-rose;
       margin: 2% auto 2% auto;
@@ -319,9 +324,12 @@
         width: 45%;
         height: 10%;
         border-radius: 50%;
+        position: initial;
       }
       div {
-        font-size: 14px;
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 5%;
       }
     }
   }

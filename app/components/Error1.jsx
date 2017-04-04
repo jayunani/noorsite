@@ -11,6 +11,7 @@ class Error1 extends React.Component {
         <img src='/flower_line-1.png' />
         <div className='error1-title'> Oops! Did you enter the wrong code? </div>
         <button onClick={redirectToHome}> Try again! </button>
+      <div className='error1-text'> Questions? Contact us at noorandsul@gmail.com </div>
       </div>
     );
   }
