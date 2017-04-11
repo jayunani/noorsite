@@ -1,205 +1,215 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 html, body {
-    height: 100%;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-.page {
-  text-align: center;
-  .title {
-    font-family: 'Great Vibes', cursive;
-    font-size: 56px;
-    background-color: $dark-rose;
-    color: $cream;
-    height: 170px;
-    font-weight: bold;
-    .title-content {
-      display: flex;
-      img {
-        width: 10%;
-        height: 11%;
-      }
-      .noor-pic {
-        border-radius: 50%;
-        margin: auto;
-        -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-        transform: rotate(40deg);
-      }
-      .noor-cat-pic {
-        border-radius: 50%;
-        margin: auto;
-      }
-      .sul-pic {
-        border-radius: 50%;
-        margin: auto;
-      }
-      .sul-cat-pic {
-        border-radius: 50%;
-        margin: auto;
-      }
-      .header-graphic {
-        border: 0px;
-        margin: auto 0px auto 0px;
-        width: 40%;
-        img {
-          width: 50%;
-        }
-      }
-    }
-    .event {
-      margin-top: -1%;
-    }
-    .bismallah {
-      width: 25%;
-    }
-  }
-  
-  .event-content {
-    margin-bottom: 5%;
-    .event-details-text {
+  // height: 100%;
+  // overflow: auto;
+  // -webkit-overflow-scrolling: touch;
+  .page {
+    text-align: center;
+    .title {
       font-family: 'Great Vibes', cursive;
-      font-size: 50px;
-      color:$dark-rose; 
-    }
-    .event-details-title {
-      font-family: 'Abril Fatface', cursive;
-      font-weight: bold;
-      font-size: 40px;
-      background-color:$light-rose;
-      margin: 2% auto 2% auto;
-      border-radius: 5px;
-      width: 80%;
+      font-size: 56px;
+      background-color: $dark-rose;
       color: $cream;
-    }
-    .mendhi-content {
-      display: flex;
-      width: 80%;
-      margin: auto;
-      .event-details {
-        width: 50%;
-        font-family: 'Pavanam', sans-serif;
-        font-size: 32px;
-        .event-address {
-          margin-bottom: 10%;
+      height: 170px;
+      font-weight: bold;
+      .title-content {
+        display: flex;
+        img {
+          width: 10%;
+          height: 11%;
+        }
+        .noor-pic {
+          border-radius: 50%;
+          margin: auto;
+          -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+          transform: rotate(40deg);
+        }
+        .noor-cat-pic {
+          border-radius: 50%;
+          margin: auto;
+        }
+        .sul-pic {
+          border-radius: 50%;
+          margin: auto;
+        }
+        .sul-cat-pic {
+          border-radius: 50%;
+          margin: auto;
+        }
+        .header-graphic {
+          border: 0px;
+          margin: auto 0px auto 0px;
+          width: 40%;
           img {
-            width: 20%;
-          }
-          .address-title {
-            font-family: 'Pavanam', sans-serif;
-            color: $dark-rose;
-            font-weight: bold;
+            width: 50%;
           }
         }
-        .event-schedule {
-          margin-bottom: 10%;
+      }
+      .event {
+        margin-top: -1%;
+      }
+      .bismallah {
+        width: 25%;
+      }
+    }
+    
+    .event-content {
+      margin-bottom: 5%;
+      .event-details-text {
+        font-family: 'Great Vibes', cursive;
+        font-size: 50px;
+        color:$dark-rose; 
+      }
+      .event-details-title {
+        font-family: 'Abril Fatface', cursive;
+        font-weight: bold;
+        font-size: 40px;
+        background-color:$light-rose;
+        margin: 2% auto 2% auto;
+        border-radius: 5px;
+        width: 80%;
+        color: $cream;
+      }
+      .mendhi-content {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        .event-details {
+          width: 50%;
+          font-family: 'Pavanam', sans-serif;
+          font-size: 32px;
+          .event-address {
+            margin-bottom: 10%;
+            img {
+              width: 20%;
+            }
+            .address-title {
+              font-family: 'Pavanam', sans-serif;
+              color: $dark-rose;
+              font-weight: bold;
+            }
+          }
+          .event-schedule {
+            margin-bottom: 10%;
+            img {
+              width: 15%;
+            }
+            .schedule-title {
+              font-family: 'Pavanam', sans-serif;
+              color: $dark-rose;
+              font-weight: bold;
+            }
+          }
+          .react-add-to-calendar {
+            .react-add-to-calendar__wrapper {
+              background-color: $dark-rose;
+              border-radius: 5px;
+              a {
+                color: white;
+                text-decoration: none;
+              }
+            }
+            .react-add-to-calendar__dropdown {
+              ul {
+                list-style-type: none;
+                li {
+                  font-size: 16px;
+                }
+              }
+              a {
+                font-size: 22px;
+                text-decoration: none;
+              }
+            }
+          }
+          a {
+            text-decoration: underline;
+            font-size: 32px;
+            color: $dark-rose;
+            &:hover {
+              color: $light-rose;
+            }
+          }
+        }
+        .rsvp-form {
+          width: 70%;
           img {
             width: 15%;
           }
-          .schedule-title {
-            font-family: 'Pavanam', sans-serif;
-            color: $dark-rose;
-            font-weight: bold;
+          .collapsed-div {
+            width: 100%;
           }
-        }
-        .react-add-to-calendar {
-          .react-add-to-calendar__wrapper {
-            background-color: $dark-rose;
-            border-radius: 5px;
-            a {
-              color: white;
-              text-decoration: none;
+          .event-form {
+            margin: 0px;
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+            -webkit-overflow-scrolling: touch;
+            .rsvp {
+              font-family: 'Great Vibes', cursive;
+              font-size: 48px;
+              width: 40%;
+              margin-left: auto;
+              margin-right: auto;
+              margin-bottom: 2%;
+              color: $dark-rose;
             }
-          }
-          .react-add-to-calendar__dropdown {
-            ul {
-              list-style-type: none;
-              li {
-                font-size: 16px;
-              }
+            button:focus {outline:0;}
+            iframe {
+              margin: auto;
+              width: 80%;
+              border: 3px solid $light-rose;
+              // overflow: hidden;
             }
-            a {
-              font-size: 22px;
-              text-decoration: none;
-            }
-          }
-        }
-        a {
-          text-decoration: underline;
-          font-size: 32px;
-          color: $dark-rose;
-          &:hover {
-            color: $light-rose;
-          }
-        }
-      }
-      .rsvp-form {
-        width: 70%;
-        img {
-          width: 15%;
-        }
-        .collapsed-div {
-          width: 100%;
-        }
-        .event-form {
-          margin: 0px;
-
-          .rsvp {
-            font-family: 'Great Vibes', cursive;
-            font-size: 48px;
-            width: 40%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 2%;
-            color: $dark-rose;
-          }
-          button:focus {outline:0;}
-          iframe {
-            margin: auto;
-            width: 80%;
-            border: 3px solid $light-rose;
           }
         }
       }
     }
   }
-}
-.footer {
-  font-family: arial;
-  .footer-section {
-    padding: 2%;
-    color: white;
-    background-color: $dark-rose;
-    display:flex;
-    .noor-sul {
-      width: 20%;
-      height: 10%;
-      border-radius: 50%;
-      position: relative;
-      left: 10%;
+  .footer {
+    font-family: arial;
+    .footer-section {
+      padding: 2%;
+      color: white;
+      background-color: $dark-rose;
+      display:flex;
+      .noor-sul {
+        width: 20%;
+        height: 10%;
+        border-radius: 50%;
+        position: relative;
+        left: 10%;
+      }
+      .surah {
+        width: 75%
+      }
+      div {
+        width: 75%;
+        margin: auto;
+        font-size: 14px;
+      }
     }
-    .surah {
-      width: 75%
-    }
-    div {
-      width: 75%;
-      margin: auto;
-      font-size: 14px;
-    }
-  }
-  .footer-email {
-    background-color: #C08879;
-    color: white;
-    a {
-      text-decoration: underline;
+    .footer-email {
+      background-color: #C08879;
+      color: white;
+      a {
+        text-decoration: underline;
+      }
     }
   }
 }
 
 /////////////////////////// SMALL SCREENS //////////////////////////////////////
+
+
 @media screen and (min-width: 481px) and (max-width: 909px) {
+  // html, body {
+  //   height: 100%;
+  //   overflow: auto;
+  //   -webkit-overflow-scrolling: touch;
   .page {
-    .title {
+    .event {
       font-size: 40px;
     }
   }
@@ -208,7 +218,12 @@ html, body {
   }
 }
 
+
 @media screen and (min-width: 910px) and (max-width: 1100px) {
+  //  html, body {
+  //   height: 100%;
+  //   overflow: auto;
+  //   -webkit-overflow-scrolling: touch;
   .page {
     .title {
       font-size: 45px;
@@ -217,7 +232,12 @@ html, body {
 }
 
 
+
 @media screen and (max-width: 480px) {
+  // html, body {
+  //   height: 100%;
+  //   overflow: auto;
+  //   -webkit-overflow-scrolling: touch;
 .page {
   text-align: center;
   .title {
