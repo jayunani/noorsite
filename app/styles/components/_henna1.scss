@@ -138,6 +138,9 @@
         }
         .event-form {
           margin: 0px;
+          height: 100%;
+          overflow: auto;
+          -webkit-overflow-scrolling: touch;
 
           .rsvp {
             font-family: 'Great Vibes', cursive;
