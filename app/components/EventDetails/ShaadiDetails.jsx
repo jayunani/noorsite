@@ -36,7 +36,7 @@ class ShaadiDetails extends React.Component {
           <div className='rsvp-form'>
             <img src='./rsvp.png' />
             <div className='event-form'>
-              <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLSdkJilckA5Ldg9jzMLWwntquGT17lR9KnnLglCkKO6IEC2aBA/viewform?embedded=true about:blank" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+              <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLSdkJilckA5Ldg9jzMLWwntquGT17lR9KnnLglCkKO6IEC2aBA/viewform?embedded=true" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
           </div>
         </div>
