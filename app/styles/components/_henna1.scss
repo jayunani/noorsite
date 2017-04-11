@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
+html, body {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
 .page {
   text-align: center;
   .title {
@@ -331,8 +336,16 @@
         }
         .event-form {
           margin: 0px;
+          overflow-y: scroll;
+          -webkit-overflow-scrolling: touch;
 
-          .rsvp {
+          button:focus {outline:0;}
+          iframe {
+            margin: auto;
+            width: 80%;
+            border: 3px solid $light-rose;
+          } 
+           .rsvp {
             font-family: 'Great Vibes', cursive;
             font-size: 48px;
             width: 40%;
@@ -340,12 +353,6 @@
             margin-right: auto;
             margin-bottom: 2%;
             color: $dark-rose;
-          }
-          button:focus {outline:0;}
-          iframe {
-            margin: auto;
-            width: 80%;
-            border: 3px solid $light-rose;
           }
         }
       }
