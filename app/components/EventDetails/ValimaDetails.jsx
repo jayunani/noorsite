@@ -36,7 +36,7 @@ class ValimaDetails extends React.Component {
           <div className='rsvp-form'>
             <img src='./rsvp.png' />
             <div className='event-form'>
-              <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLSebmX7zdgl3Xoncz4iYtD3Bf2kbGzJUO_HDHcqxFhmzLEJlhg/viewform?embedded=true" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0" sandbox="allow-forms">Loading...</iframe>
+              <iframe id='collapsed-form-mendhi' className='collapse collapsed-div'  src="https://docs.google.com/forms/d/e/1FAIpQLSebmX7zdgl3Xoncz4iYtD3Bf2kbGzJUO_HDHcqxFhmzLEJlhg/viewform?embedded=true" width="450" height="400" frameborder="0" marginheight="0" marginwidth="0" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation">Loading...</iframe>
             </div>
           </div>          
         </div>
